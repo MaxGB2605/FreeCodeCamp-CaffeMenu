@@ -5,6 +5,7 @@ p {
 }
 body {
   font-family: sans-serif;
+  padding: 20px;
   /*background-color: burlywood;*/
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
@@ -14,10 +15,25 @@ h2 {
 }
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 30px;
 }
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
 .menu {
   width: 80%;
   max-width: 500%;
@@ -32,6 +48,14 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+.item p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.address {
+  margin-bottom: 5px;
 }
 /*
 .flavor,
@@ -51,4 +75,25 @@ h2 {
 }
 .established {
   font-style: italic;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: brown;
 }
